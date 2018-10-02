@@ -1,12 +1,8 @@
 package com.example.progressupload.listener;
 
-
-
 import com.example.progressupload.entity.ProgressEntity;
 import org.apache.commons.fileupload.ProgressListener;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
-
 import javax.servlet.http.HttpSession;
 
 @Component
