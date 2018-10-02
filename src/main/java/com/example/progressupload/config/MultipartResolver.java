@@ -14,7 +14,7 @@ import javax.servlet.http.HttpServletRequest;
 import java.util.List;
 
 @Component
-public class YuxiaoMultipartResolver extends CommonsMultipartResolver {
+public class MultipartResolver extends CommonsMultipartResolver {
 
     @Autowired
     private UploadProgressListener progressListener;
